@@ -1,5 +1,4 @@
 --1
-
 SELECT country FROM country
 WHERE country LIKE 'A%a';
 
@@ -8,7 +7,6 @@ SELECT country FROM country
 WHERE length(country) > 6 AND country LIKE '%n';
 
 --3
-
 SELECT title FROM film
 WHERE title ILIKE '%t%t%t%t%';
 
